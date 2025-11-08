@@ -1,0 +1,108 @@
+.issue-card {
+  padding: 1.25rem;
+  border-left: 4px solid #cbd5e1;
+  border-radius: 0.375rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid;
+  transition: all 0.2s;
+}
+
+.issue-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.issue-card.severity-critical {
+  border-left-color: #dc2626;
+  background: #fef2f2;
+}
+
+.issue-card.severity-high {
+  border-left-color: #f97316;
+  background: #fffbf5;
+}
+
+.issue-card.severity-medium {
+  border-left-color: #f59e0b;
+  background: #fffbf0;
+}
+
+.issue-card.severity-low {
+  border-left-color: #3b82f6;
+  background: #f0f9ff;
+}
+
+.issue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.issue-category {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+.issue-severity {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.issue-card.severity-critical .issue-severity {
+  background: #dc2626;
+  color: white;
+}
+
+.issue-card.severity-high .issue-severity {
+  background: #f97316;
+  color: white;
+}
+
+.issue-card.severity-medium .issue-severity {
+  background: #f59e0b;
+  color: white;
+}
+
+.issue-card.severity-low .issue-severity {
+  background: #3b82f6;
+  color: white;
+}
+
+.issue-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: #1e293b;
+}
+
+.issue-message {
+  margin: 0.5rem 0;
+  color: #475569;
+  font-size: 0.875rem;
+}
+
+.issue-code {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  margin: 0.75rem 0;
+  overflow-x: auto;
+  font-size: 0.75rem;
+}
+
+.issue-code code {
+  font-family: "Courier New", monospace;
+}
+
+.issue-rule {
+  margin: 0.75rem 0 0;
+  font-size: 0.75rem;
+  color: #94a3b8;
+}

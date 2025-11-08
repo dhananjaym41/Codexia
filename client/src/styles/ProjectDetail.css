@@ -1,0 +1,19 @@
+.issues-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 0.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.issues-section h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .issues-grid {
+    grid-template-columns: 1fr;
+  }
+}

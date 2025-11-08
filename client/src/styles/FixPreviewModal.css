@@ -1,0 +1,75 @@
+.fix-preview-content {
+  padding: 1.5rem;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.fix-section {
+  margin-bottom: 1.5rem;
+}
+
+.fix-section h3 {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+.fix-description {
+  margin: 0;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.fix-patch,
+.generated-code {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  overflow-x: auto;
+  font-family: "Courier New", monospace;
+}
+
+.diff-viewer {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.diff-viewer pre {
+  margin: 0;
+  font-family: "Courier New", monospace;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #1e293b;
+}
+
+.fix-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f1f5f9;
+  border-radius: 0.375rem;
+  margin: 1rem 0;
+}
+
+.meta-item {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.meta-item .label {
+  font-weight: 600;
+  color: #64748b;
+}
+
+.meta-item .value {
+  color: #2563eb;
+}
